@@ -1,0 +1,5 @@
+@include('Doctor.Layouts.header')
+@include('Doctor.Layouts.nav-header')
+@include('Doctor.Layouts.sidebar')
+	@yield('content')
+@include('Doctor.Layouts.footer')

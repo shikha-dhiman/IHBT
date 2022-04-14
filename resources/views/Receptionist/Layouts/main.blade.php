@@ -1,0 +1,5 @@
+@include('Receptionist.Layouts.header')
+@include('Receptionist.Layouts.nav-header')
+@include('Receptionist.Layouts.sidebar')
+	@yield('content')
+@include('Receptionist.Layouts.footer')
